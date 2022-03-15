@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
           'Login',
           style: TextStyle(
             fontSize: 22,
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.w700,color: Colors.white,
           ),
         ),
         centerTitle: true,
