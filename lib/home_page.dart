@@ -1,4 +1,3 @@
-
 import 'package:aulahttp/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,10 +13,16 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login',style: TextStyle(fontSize: 22),),
+        title: const Text(
+          'Login',
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
         centerTitle: true,
       ),
-       body: LoginPage(),
+      body: LoginPage(),
     );
   }
 }
